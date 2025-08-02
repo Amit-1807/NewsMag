@@ -16,7 +16,7 @@ const Newsboard = ({category}) => {
             return <Newsitem key = {index} title = {news.title} description = {news.description} src={news.urlToImage} url={news.url}/>
          })}
 
-         
+
     </div>
   )
 }
